@@ -1,12 +1,14 @@
------------------- Orbital Determination Code, SSP 2022 ------------------
+Orbital Determination Code - SSP 2022
+--------------------------------------------------------------------------
 Name: Tyler Chen
 Date: July 21st, 2022
 Asteroid: 1999 GJ2
 Team: Team 01 - Glacier National Park
 Teammates: Anoushka Chitnis, Sam Kleiman, Alison Soong
---------------------------------------------------------------------------
+
 API
 --------------------------------------------------------------------------
+
 Generated using https://pypi.org/project/pdoc/
 
 Respective files for the API Documentation are with the ChenOD folder, however, the HTML file can't be opened independently if the local host is not running. Due to this you must follow the following instructions.
@@ -29,9 +31,11 @@ Instructions:
 
 Once your local host is running you can update the API yourself with your own edits to the ODLIB.py docstrings and generate your own HTML files. 
 You can also open the HTML file included, but this can only be done with the 2344 local host. 
---------------------------------------------------------------------------
+
+
 OD Generation
 --------------------------------------------------------------------------
+
 To perform orbital determination, ephemeris generation, and/or monte carlo simulation with your own inputs, you can use the ODGeneration.ipynb file from the ChenOD folder.
 
 File Formatting:
@@ -67,7 +71,7 @@ Ex.
 2459774.6955906, -3.716017622155263E-01,  8.681063517238574E-01,  3.762768881806196E-01
 
 After creating your dataInput.txt file and sunsInput.txt file in the proper formatting, follow the instructions in the ODGeneration.ipynb file for OD generation.
---------------------------------------------------------------------------
+
 Asteroid Orbit Visualization
 --------------------------------------------------------------------------   
 Visualization generated with https://docs.poliastro.space/en/stable/ and https://www.astropy.org/
@@ -97,4 +101,3 @@ If you have the incorrect versions of astropy and poliastro you will have to do 
     pip uninstall poliastro
 
 After you have uninstalled your incorrect versions of astropy and poliastro, you can reinstall both packages using the instructions for installing the correct versions.
---------------------------------------------------------------------------
