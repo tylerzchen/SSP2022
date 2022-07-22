@@ -1,9 +1,13 @@
 Orbital Determination Code - SSP 2022
 --------------------------------------------------------------------------
 Name: Tyler Chen
+
 Date: July 21st, 2022
+
 Asteroid: 1999 GJ2
+
 Team: Team 01 - Glacier National Park
+
 Teammates: Anoushka Chitnis, Sam Kleiman, Alison Soong
 
 API
@@ -14,6 +18,7 @@ Generated using https://pypi.org/project/pdoc/
 Respective files for the API Documentation are with the ChenOD folder, however, the HTML file can't be opened independently if the local host is not running. Due to this you must follow the following instructions.
 
 Instructions:
+
     - Install pdoc using pip install in the terminal:
     
         pip install pdoc
@@ -80,6 +85,7 @@ In order to run visualization software you must have the correct versions of ast
 If you don't have the astropy or poliastro packages installed, follow the following instructions.
 
 Instructions:
+
     - Install the *CORRECT* version of astropy using pip install in the terminal
     
         pip install astropy==4.0
