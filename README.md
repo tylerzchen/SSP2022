@@ -44,31 +44,31 @@ To ensure proper orbital determination generation your data input and sun input 
 
 Your data input .txt file from your three observations for orbital determination should be formatted as follows:
 
-Obs1 Time (Julian Days), RA1 Hours, RA1 Minutes, RA1 Seconds, Dec1 Degrees, Dec1 Arcminutes, Dec1 Arcseconds, R1X, R1Y, R1Z
-Obs2 Time (Julian Days), RA2 Hours, RA2 Minutes, RA2 Seconds, Dec2 Degrees, Dec2 Arcminutes, Dec2 Arcseconds, R2X, R2Y, R2Z
-Obs3 Time (Julian Days), RA3 Hours, RA3 Minutes, RA3 Seconds, Dec3 Degrees, Dec3 Arcminutes, Dec3 Arcseconds, R3X, R3Y, R3Z
+    Obs1 Time (Julian Days), RA1 Hours, RA1 Minutes, RA1 Seconds, Dec1 Degrees, Dec1 Arcminutes, Dec1 Arcseconds, R1X, R1Y, R1Z
+    Obs2 Time (Julian Days), RA2 Hours, RA2 Minutes, RA2 Seconds, Dec2 Degrees, Dec2 Arcminutes, Dec2 Arcseconds, R2X, R2Y, R2Z
+    Obs3 Time (Julian Days), RA3 Hours, RA3 Minutes, RA3 Seconds, Dec3 Degrees, Dec3 Arcminutes, Dec3 Arcseconds, R3X, R3Y, R3Z
 
 Ex.
 
-2459758.6900936, 16, 29, 13.23, 11, 49, 50.5, -1.094708696204573E-01,  9.273413097249199E-01,  4.019595794929602E-01
-2459772.6782503, 16, 22, 53.90, 11, 23, 23.8, -3.396653695756806E-01,  8.791228948267975E-01,  3.810538933651598E-01
-2459774.6955906, 16, 22, 48.54, 11, 10, 0.9, -3.716017622155263E-01,  8.681063517238574E-01,  3.762768881806196E-01
+    2459758.6900936, 16, 29, 13.23, 11, 49, 50.5, -1.094708696204573E-01,  9.273413097249199E-01,  4.019595794929602E-01
+    2459772.6782503, 16, 22, 53.90, 11, 23, 23.8, -3.396653695756806E-01,  8.791228948267975E-01,  3.810538933651598E-01
+    2459774.6955906, 16, 22, 48.54, 11, 10, 0.9, -3.716017622155263E-01,  8.681063517238574E-01,  3.762768881806196E-01
 
 Your suns input .txt file for ephemeris generation can contain as many times and sun vectors as desired and should be formatted as follows:
 
-Obs1 Time (Julian Days), R1X, R1Y, R1Z
-Obs2 Time (Julian Days), R2X, R2Y, R2Z
-.
-.
-.
-.
-ObsN Time (Julian Days), RNX, RNY, RNZ
+    Obs1 Time (Julian Days), R1X, R1Y, R1Z
+    Obs2 Time (Julian Days), R2X, R2Y, R2Z
+    .
+    .
+    .
+    .
+    ObsN Time (Julian Days), RNX, RNY, RNZ
 
 Ex.
 
-2459758.6900936, -1.094708696204573E-01,  9.273413097249199E-01,  4.019595794929602E-01
-2459772.6782503, -3.396653695756806E-01,  8.791228948267975E-01,  3.810538933651598E-01
-2459774.6955906, -3.716017622155263E-01,  8.681063517238574E-01,  3.762768881806196E-01
+    2459758.6900936, -1.094708696204573E-01,  9.273413097249199E-01,  4.019595794929602E-01
+    2459772.6782503, -3.396653695756806E-01,  8.791228948267975E-01,  3.810538933651598E-01
+    2459774.6955906, -3.716017622155263E-01,  8.681063517238574E-01,  3.762768881806196E-01
 
 After creating your dataInput.txt file and sunsInput.txt file in the proper formatting, follow the instructions in the ODGeneration.ipynb file for OD generation.
 
@@ -80,7 +80,7 @@ In order to run visualization software you must have the correct versions of ast
 If you don't have the astropy or poliastro packages installed, follow the following instructions.
 
 Instructions:
-    - Install the *CORRECT* version of astropy using pip install in the terminal:
+    - Install the *CORRECT* version of astropy using pip install in the terminal
     
         pip install astropy==4.0
     
